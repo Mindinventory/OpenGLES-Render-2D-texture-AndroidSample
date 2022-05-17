@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+//        dependencies {
+//        // Add this line
+//        classpath 'com.google.gms:google-services:4.3.10'
+//
+//    }
+}
+rootProject.name = "ArCore2DRenderingApp"
+include ':app'
